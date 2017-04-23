@@ -3,27 +3,27 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                bat 'set'
+                //bat 'set'
             }
         }
         stage('Unit Test') {
             steps {
-                bat 'set'
+               // bat 'set'
             }
         }
         stage('Build') {
             steps {
-                bat 'set'
+               // bat 'set'
             }
         }
         stage('Deploy') {
             steps {
-                bat 'set'
+                //bat 'set'
             }
         }
         stage('Test') {
             steps {
-                bat 'set'
+                //bat 'set'
             }
         }
     }
